@@ -1,0 +1,28 @@
+<resources>
+	<string name="app_name">WirteItDown</string>
+	<string name="strLabelDetails">Details</string>
+	
+	<string name="strIntentExtraKeyForId">idOfCurrentSelectedNote</string>
+	
+	<string name="strLabelNoteName">Note name:</string>
+	<string name="strLabelNoteDate">Note date:</string>
+	<string name="strLabelNoteContent">Note content:</string>
+	
+	<string name="strHintNoteName">Input your Note name</string>
+	<string name="strHintNoteDate">Generation date:</string>
+	<string name="strHintNoteContent">The content of your note goes in here</string>
+	
+	<string name="strAdd">Add</string>
+	<string name="strDelete">Delete</string>
+	<string name="strSubmit">Submit</string>
+	<string name="strNoteExampleInfo">Einkaufen gehen 08.02.2022</string>
+	<string name="strUserMsgFillInEverything">Please fill in everthing.</string>
+	<string name="strUserMsgFillInEverythingHeader">Fill in</string>
+	<string name="strUserMsgSubmitSuccess">Note successfully submitted.</string>
+	<string name="strUserMsgDeleteNote">Do you want to delete this note?</string>
+	<string name="strUserMsgDeleteSuccess">Deleted successfully</string>
+	<string name="strUserMsgSelectANoteToDelete">Please select a note to delete first. Your Data you may have entered is not saved yet.</string>
+	<string name="strShare">Shrare</string>
+	<string name="strUserMsgFillInEverythingToShareYourNote">Please fill in everything to share your note</string>
+
+</resources>

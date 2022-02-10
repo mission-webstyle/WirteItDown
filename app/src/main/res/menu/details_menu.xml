@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+		xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<item
+			android:title="@string/strSubmit"
+			android:id="@+id/mnuItemSubmit"
+			android:icon="@android:drawable/ic_input_add"
+			app:showAsAction="ifRoom"
+			android:onClick="submitMyNote"/>
+	<item
+			android:title="@string/strDelete"
+			android:id="@+id/mnuItemDelete"
+			android:icon="@android:drawable/ic_delete"
+			app:showAsAction="ifRoom"
+			android:onClick="deleteMyNote"/>
+	
+<!--	TODO neues ShareItem implementieren mit Name und Text, Icon, onClick-Zuweisung-->
+	<item
+			android:title="@string/strShare"
+			android:id="@+id/mnuItemShare"
+			android:icon="@android:drawable/ic_menu_share"
+			app:showAsAction="ifRoom"
+			android:onClick="shareNote"/>
+</menu>
