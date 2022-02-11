@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Schreibs auf</string>
+    <string name="strLabelNoteName">Notizname:</string>
+    <string name="strLabelNoteDate">Notizdatum:</string>
+    <string name="strLabelNoteContent">Notizinhalt:</string>
+    <string name="strHintNoteName">Hier den Notiznamen eingeben</string>
+    <string name="strHintNoteDate">Erstellungsdatum:</string>
+    <string name="strHintNoteContent">Der Inhalt Ihrer Notiz gehört hier rein.</string>
+    <string name="strAdd">Hinzufügen</string>
+    <string name="strDelete">Löschen</string>
+    <string name="strSubmit">Übernehmen</string>
+    <string name="strNoteExampleInfo">Einkaufen - 08.02.2022</string>
+    <string name="strUserMsgFillInEverything">Bitte alles ausfüllen</string>
+    <string name="strUserMsgFillInEverythingHeader">Ausfüllen</string>
+    <string name="strUserMsgSubmitSuccess">Notiz erfolgreich übernommen</string>
+    <string name="strUserMsgDeleteNote">Möchten Sie diese Notiz löschen?</string>
+    <string name="strUserMsgDeleteSuccess">Erfolgreich gelöscht</string>
+    <string name="strUserMsgSelectANoteToDelete">Bitte wählen Sie zuerst eine Notiz aus, um Sie zu löschen. Die Eingebenen Daten wurde noch nicht gespeichert.</string>
+    <string name="strShare">Teilen</string>
+    <string name="strUserMsgFillInEverythingToShareYourNote">Bitte alles ausfüllen um die Notiz zu teilen.</string>
+</resources>

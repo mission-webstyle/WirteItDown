@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.DetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/txtvNoteName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/strLabelNoteName"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtNoteName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="@string/strHintNoteName"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtvNoteDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/strLabelNoteDate"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtNoteDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="@string/strHintNoteDate"
+            android:inputType="date"
+            android:minHeight="48dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtvNoteContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/strLabelNoteContent"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtNoteContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:hint="@string/strHintNoteContent"
+            android:inputType="textMultiLine"
+            android:minHeight="48dp"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>

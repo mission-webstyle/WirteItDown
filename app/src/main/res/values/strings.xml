@@ -1,8 +1,8 @@
 <resources>
-	<string name="app_name">WirteItDown</string>
-	<string name="strLabelDetails">Details</string>
+	<string name="app_name">WriteItDown</string>
+	<string name="strLabelDetails" translatable="false">Details</string>
 	
-	<string name="strIntentExtraKeyForId">idOfCurrentSelectedNote</string>
+	<string name="strIntentExtraKeyForId" translatable="false">idOfCurrentSelectedNote</string>
 	
 	<string name="strLabelNoteName">Note name:</string>
 	<string name="strLabelNoteDate">Note date:</string>
@@ -15,7 +15,7 @@
 	<string name="strAdd">Add</string>
 	<string name="strDelete">Delete</string>
 	<string name="strSubmit">Submit</string>
-	<string name="strNoteExampleInfo">Einkaufen gehen 08.02.2022</string>
+	<string name="strNoteExampleInfo">Shopping -  08.02.2022</string>
 	<string name="strUserMsgFillInEverything">Please fill in everthing.</string>
 	<string name="strUserMsgFillInEverythingHeader">Fill in</string>
 	<string name="strUserMsgSubmitSuccess">Note successfully submitted.</string>
